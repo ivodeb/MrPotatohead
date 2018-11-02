@@ -1,4 +1,4 @@
 Simple Mr. Potatohead 'dress-up' app.
 
-![Portrait](ivodeb.github.com/MrPotatohead/portrait.png)
-![Landscape](username.github.com/repository/landscape.png)
+![Portrait](portrait.png)
+![Landscape](landscape.png)
