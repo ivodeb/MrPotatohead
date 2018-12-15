@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String[] items = {"hat", "eyebrows", "nose", "mustache", "arms", "eyes", "glasses",
                 "mouth", "ears", "shoes"};
+        // if there is a saved instance, keep saved visibility for each item
         for (String item : items) {
             show.put(item, savedInstanceState != null ? savedInstanceState.getInt(item) : View.INVISIBLE);
             ImageView img = findViewById(getResources().getIdentifier(item, "id", getPackageName()));
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSaveInstanceState(Bundle outState) {
+        // save visibility for each item in a hashmap
         for (Map.Entry<String, Integer> save_state : show.entrySet()) {
             outState.putInt(save_state.getKey(), save_state.getValue());
         }
