@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import java.util.HashMap;
 import java.util.Map;
 
+/** Creates an activity that lets you dress-up a digital Mr. Potato Head*/
 public class MainActivity extends AppCompatActivity {
 
     public Map<String, Integer> show = new HashMap<>();
