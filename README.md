@@ -8,4 +8,4 @@ Extra features:
 
 Portrait mode (with constraints) | Landscape mode (with checkboxes checked)
 :-------------------------------:|:-----------------------------------------:|
-![Portrait](portrait_mode.png)   | ![Landscape](landscape.png)
+![Portrait](doc/portrait_mode.png)   | ![Landscape](doc/landscape.png)
