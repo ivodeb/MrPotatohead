@@ -6,6 +6,6 @@ Extra features:
 
 ## Screenshots
 
-Portrait mode (with constraints) | Landscape mode (with checkboxes checked)
-:-------------------------------:|:-----------------------------------------:|
+Portrait mode (with constraints)     | Landscape mode (with checkboxes checked)
+:-----------------------------------:|:-----------------------------------------:|
 ![Portrait](doc/portrait_mode.png)   | ![Landscape](doc/landscape.png)
